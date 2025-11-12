@@ -120,7 +120,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 **Yuri Luiz**
 
 - GitHub: [@YuriLuiz1](https://github.com/YuriLuiz1)
-- LinkedIn: [Adicione seu LinkedIn aqui]
+- LinkedIn: [[Adicione seu LinkedIn aqui](https://www.linkedin.com/in/yuri-luiz/)]
 
 ## 📄 Licença
 
