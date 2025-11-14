@@ -1,66 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>TW SOLUTIONS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sorteio Hibrido</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="script.js"></script>
 </head>
+
 <body>
-    <div class="titulo">
-        <h1>SUPORTE - ROLETA DE NOMES</h1>
-    </div>
-    <div class="lista">
-        <ol type="A">
-            <li>Rubens</li>
-            <ul type="circle">
-                <li>Ativação</li>
-            </ul>
-            <li>Alexandre</li>
-            <ul type="circle">
-                <li>Suporte</li>
-            </ul>
-            <li>Felipe N.</li>
-            <ul type="circle">
-                <li>Infraestrutura</li>
-            </ul>
-            <li>Geovanne</li>
-            <ul type="circle">
-                <li>STFC</li>
-            </ul>
-            <li>Danilo</li>
-            <ul type="circle">
-                <li>Suporte</li>
-            </ul>
-            <li>Vinicius</li>
-            <ul type="circle">
-                <li>Suporte</li>
-            </ul>
-            <li>David</li>
-            <ul type="circle">
-                <li>Coordenador</li>
-            </ul>
-            <li>Elton</li>
-            <ul type="circle">
-                <li>Supervisor</li>
-            </ul>
-        </ol>
-    </div>
-    <div class="botao">
-        <button id="sortearButton">ROLETAR!!!</button>
-    </div>
-    <div id="resultado">
+  <div class="container">
+    <h1>Sorteio Hibrido</h1>
+    <p class="subtitle">Sorteio de nomes para hibrido para cada dia da semana</p>
 
-    </div>
-    <div class="marca">
-        <h2>Developed: Yuri</h2>
+    <div class="input-section">
+      <div class="input-group">
+        <input type="text" id="insere-nomes" placeholder="Digite o nome da pessoa...">
+        <button class="btn-add" onclick="adicionaPessoas()">Adicionar</button>
+      </div>
+
+      <div class="pessoas-lista">
+        <h3>Participantes</h3>
+        <div id="lista-adicionados">
+          <p class="empty-message">Nenhum participante adicionado ainda</p>
+        </div>
+      </div>
+
+      <button class="btn-sortear" onclick="mostraResultado()">
+        Sortear
+      </button>
     </div>
 
-
-
-
-
-    <script type="text/javascript" src="script.js"></script>
+    <div class="resultado-section">
+      <h3 class="resultado-titulo">📋 Resultado do Sorteio</h3>
+      <div id="lista"></div>
+    </div>
+  </div>
 </body>
+
 </html>
