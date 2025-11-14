@@ -92,10 +92,10 @@ function sortear(lista, quantidade) {
 
 ## 📈 Melhorias Futuras
 
-- [ ] Salvar listas de participantes no LocalStorage
+- [X] Salvar listas de participantes no LocalStorage
 - [ ] Exportar resultados em PDF/CSV
 - [ ] Modo "sem repetição" (participantes sorteados não entram no próximo)
-- [ ] Animação visual durante o sorteio
+- [X] Animação visual durante o sorteio
 - [ ] Modo escuro
 - [ ] Pesos diferentes para participantes
 
